@@ -10,4 +10,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Data.EF\Data.EF.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Ultilities\Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>

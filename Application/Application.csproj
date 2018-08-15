@@ -4,4 +4,17 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.EF\Data.EF.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Ultilities\Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>
