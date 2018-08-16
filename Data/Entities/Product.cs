@@ -20,12 +20,12 @@ namespace Data.Entities
 
         [Required]
         [DefaultValue(0)]
-        public string Price { get; set; }
+        public int Price { get; set; }
 
         public string PromotionPrice { get; set; }
 
         [Required]
-        public string OriginalPrice { get; set; }
+        public int OriginalPrice { get; set; }
 
         [StringLength(255)]
         public string Description { get; set; }
